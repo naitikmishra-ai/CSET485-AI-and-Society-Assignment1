@@ -45,6 +45,7 @@ def build_cells() -> List[Dict[str, Any]]:
     cells.append(
         md_cell(
             """# CSET485 – AI and Society | Assignment #1
+**Student Name:** Naitik Mishra  
 **Roll Number:** `S24BCAU0139`  
 **Assigned Dataset:** UCI Adult Census Income (`adult.data`)  
 **Random Seed (`random_state`):** `139` (Stratified 70% Train / 30% Test Split)
@@ -535,3 +536,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

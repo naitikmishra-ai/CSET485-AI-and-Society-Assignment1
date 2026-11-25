@@ -1,5 +1,6 @@
 """End-to-end statistical and fairness analysis pipeline for CSET485 Assignment 1.
 
+Student Name: Naitik Mishra
 Roll Number: S24BCAU0139
 Dataset: UCI Adult Census Income
 Random Seed: 139
@@ -33,6 +34,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 RANDOM_STATE = 139
+STUDENT_NAME = "Naitik Mishra"
 ROLL_NUMBER = "S24BCAU0139"
 DATA_URL = "https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data"
 
@@ -942,6 +944,7 @@ def main() -> None:
 
     summary = {
         "metadata": {
+            "student_name": STUDENT_NAME,
             "roll_number": ROLL_NUMBER,
             "dataset": "Adult Census Income (UCI)",
             "dataset_url": DATA_URL,

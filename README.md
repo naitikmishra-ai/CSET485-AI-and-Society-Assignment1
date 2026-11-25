@@ -1,5 +1,6 @@
 # CSET485 – AI and Society | Assignment #1
 
+**Student Name:** Naitik Mishra  
 **Student Roll Number:** `S24BCAU0139`  
 **Assigned Dataset:** UCI Adult Census Income (`adult.data`)  
 **Random Seed (`random_state`):** `139` (Stratified 70% Train / 30% Test Split)
@@ -52,3 +53,4 @@ python3 scripts/generate_report.py
 ```
 
 Or open and run `S24BCAU0139_CSET485_Assignment1.ipynb` in Jupyter (`Run All`). Every table, chart, and number in `S24BCAU0139_CSET485_Assignment1_Report.pdf` is programmatically populated from `results/metrics_summary.json`.
+
